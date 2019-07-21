@@ -49,7 +49,7 @@ if( month >= 1 && month <= 3 ){
 }
 
 //№6
-for(let e = 0; e <= 100; e += 1){
+for(let e = 0; e <= 100; e++){
     if(e%2 === 0){
         console.log(e);
     }
