@@ -37,15 +37,15 @@ else{
 }
 
 //№5
-let month = 11;
-if( month >= 3 && month <= 5 ){
-    console.log('Весна');
-}else if( month >= 6 && month <= 8 ){
-    console.log('Лето');
-}else if( month >= 9 && month <= 11 ){
-    console.log('Осень');
-} else{
+let month = 5;
+if( month >= 1 && month <= 3 ){
     console.log('Зима');
+}else if( month >= 4 && month <= 6 ){
+    console.log('Весна');
+}else if( month >= 7 && month <= 9 ){
+    console.log('Лето');
+}else if(month >= 10 && month <=12){
+    console.log('Осень');
 }
 
 //№6
@@ -54,6 +54,37 @@ for(let e = 0; e <= 100; e += 1){
         console.log(e);
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
