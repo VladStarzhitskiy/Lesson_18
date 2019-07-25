@@ -38,13 +38,13 @@ else{
 
 //№5
 let month = 5;
-if( month >= 1 && month <= 3 ){
+if( month >= 12 && month <= 2 ){
     console.log('Зима');
-}else if( month >= 4 && month <= 6 ){
+}else if( month >= 3 && month <= 5 ){
     console.log('Весна');
-}else if( month >= 7 && month <= 9 ){
+}else if( month >= 6 && month <= 8 ){
     console.log('Лето');
-}else if(month >= 10 && month <=12){
+}else if(month >= 9 && month <=11){
     console.log('Осень');
 }
 
